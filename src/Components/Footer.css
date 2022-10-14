@@ -41,4 +41,10 @@ ul.footer2-list li{
     .list-heading{
      text-align: center;
     }
+
+}
+@media screen and (max-width:992px) {
+    .footer-opensea{
+        text-align: center;
+    }
 }
