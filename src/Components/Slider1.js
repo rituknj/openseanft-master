@@ -1,8 +1,15 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image1 from "../Components/Images/image-1.avif";
-
+import Image1 from "../Components/Images/slider1.png";
+import Image2 from "../Components/Images/slider2.png";
+import Image3 from "../Components/Images/slider3.png";
+import Image4 from "../Components/Images/slider4.png";
+import Image5 from "../Components/Images/slider5.png";
+import Image6 from "../Components/Images/slider6.png";
+import Image7 from "../Components/Images/slider7.png";
+import Image8 from "../Components/Images/slider8.png";
+import Image9 from "../Components/Images/slider9.png";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -15,7 +22,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container">
+      <div className="container py-5">
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -36,7 +43,7 @@ export default function App() {
               spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           }}
@@ -44,38 +51,38 @@ export default function App() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={Image1} alt="" />
+            <img src={Image1} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image2} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image3} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image4} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image5} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image6} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image7} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <img src={Image1} alt="" />
+            <img src={Image8} alt="" className="slider1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Image1} alt="" />
+            <img src={Image9} alt="" className="slider1" />
           </SwiperSlide>
         </Swiper>
       </div>
@@ -83,16 +90,15 @@ export default function App() {
   );
 }
 
-{/* import React from "react";
-import Video from "../Components/Images/high.mp4";
+// import React from "react";
+// import Video from "../Components/Images/high.mp4";
 
-export default function Slider1() {
-  return (
-    <section>
-      <div>
-        <video src={Video} loop="true" autoplay="autoplay" muted />
-      </div>
-    </section>
-  );
-}
- */}
+// export default function Slider1() {
+//   return (
+//     <section>
+//       <div className="video">
+//         <video src={Video} loop="true" autoplay="autoplay" muted />
+//       </div>
+//     </section>
+//   );
+// }
