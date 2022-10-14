@@ -61,15 +61,14 @@ body {
 .slider1 {
   border-radius: 20px;
   padding: 20px;
-  transition: transform 0.2s;
+  transition: transform 1.9s;
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 .slider1:hover {
   border-radius: 10px;
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
