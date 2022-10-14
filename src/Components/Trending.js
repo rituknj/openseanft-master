@@ -6,7 +6,7 @@ import Tabs from "react-bootstrap/Tabs";
 function UncontrolledExample() {
   return (
     <section>
-      <div className="container">
+      <div className="container  py-5">
         <Tabs
           defaultActiveKey="profile"
           id="uncontrolled-tab-example"

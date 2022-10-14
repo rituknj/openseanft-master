@@ -6,6 +6,7 @@ import Trending from "./Components/Trending";
 import Notable from "./Components/Notable";
 import Avalanch from "./Components/Avalanch";
 import Browse from "./Components/Browse";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Notable />
       <Avalanch />
       <Browse />
-      {/* <Footer /> */}
+  <Footer /> 
     </div>
   );
 }

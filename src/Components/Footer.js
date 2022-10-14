@@ -6,11 +6,13 @@ import { AiOutlineReddit } from "react-icons/ai";
 import { FiYoutube } from "react-icons/fi";
 import { TbBrandTiktok } from "react-icons/tb";
 import { CgMail } from "react-icons/cg";
+import "./Footer.css";
 
 function Footer() {
   return (
     <>
-      <div className="container">
+    <div  style={{backgroundColor:'#1868b7',color:"white"}}>
+      <div className="container  py-5">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <h3>Stay in the loop</h3>
@@ -27,7 +29,7 @@ function Footer() {
                 aria-describedby="button-addon2"
               />
               <button
-                class="btn btn-outline-secondary"
+                className="btn btn-outline-secondary signup"
                 type="button"
                 id="button-addon2"
               >
@@ -67,6 +69,7 @@ function Footer() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

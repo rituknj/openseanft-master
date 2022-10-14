@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container">
+      <div className="container  py-5">
         <h1>Avalanche spotlight</h1>
         <Swiper
           slidesPerView={1}
