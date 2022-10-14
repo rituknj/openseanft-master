@@ -22,9 +22,9 @@ export default function App() {
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
-          pagination={{
-            clickable: true,
-          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

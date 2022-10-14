@@ -17,7 +17,7 @@ import "swiper/css/pagination";
 import "./Slider1.css";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 export default function App() {
   return (
@@ -26,9 +26,9 @@ export default function App() {
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
-          pagination={{
-            clickable: true,
-          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -47,7 +47,7 @@ export default function App() {
               spaceBetween: 50,
             },
           }}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
