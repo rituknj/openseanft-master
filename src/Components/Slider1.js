@@ -16,6 +16,7 @@ import "swiper/css/pagination";
 
 import "./Slider1.css";
 
+
 // import required modules
 import { Autoplay, Navigation } from "swiper";
 
@@ -24,11 +25,15 @@ export default function App() {
     <section>
       <div className="container py-5">
         <Swiper
+
           slidesPerView={1}
           spaceBetween={10}
           // pagination={{
           //   clickable: true,
           // }}
+          navigation={{
+            clickable: true,
+          }}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -47,7 +52,7 @@ export default function App() {
               spaceBetween: 50,
             },
           }}
-          modules={[Autoplay, Navigation]}
+          modules={[ Autoplay,Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>

@@ -7,6 +7,7 @@ import Notable from "./Components/Notable";
 import Avalanch from "./Components/Avalanch";
 import Browse from "./Components/Browse";
 import Footer from "./Components/Footer";
+import Toyslider from "./Components/Toyslider";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Trending />
       <Notable />
       <Avalanch />
+{/*       <Toyslider /> */}
       <Browse />
   <Footer /> 
     </div>

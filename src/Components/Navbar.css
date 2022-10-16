@@ -18,3 +18,8 @@
 .input-1{
     width: 50%;
 }
+@media screen and (max-width:992px) {
+    .navicon23{
+        display: none !important;
+    }
+}

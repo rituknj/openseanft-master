@@ -48,3 +48,6 @@ ul.footer2-list li{
         text-align: center;
     }
 }
+.icon{
+    padding-inline-start: 0px;
+}

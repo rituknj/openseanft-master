@@ -22,7 +22,7 @@ body {
 }
 
 .swiper-slide {
-  text-align: center;
+
   font-size: 18px;
   background: #fff;
 
@@ -60,15 +60,73 @@ body {
 
 .slider1 {
   border-radius: 20px;
-  padding: 20px;
-  transition: transform 1.9s;
+
+  transition: transform 1s;
   width: 200px;
   height: 200px;
   margin: 0 auto;
 }
 .slider1:hover {
   border-radius: 10px;
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
+
+.swiper-slide {
+
+  font-size: 18px;
+  background: #fff;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide{
+  /* background-color: black; */
+  /* color: white; */
+}
+.doodle{
+  padding: 5px 15px;
+}
+.doodles{
+  padding:1rem;
+}
+.item12{
+  color: #ababab;
+  /* background-color: black; */
+  border: 0.1rem solid #ababab;
+  font-size: 12px;
+}
+
+
+.swiper-button-next:after{
+background-color: white;
+padding: 1rem;
+font-size: 15px !important;
+border-radius: 30%;
+font-weight: bold !important;
+}
+.swiper-button-prev:after{
+  background-color: white;
+  padding: 1rem;
+  font-size: 15px !important;
+  border-radius: 30%;
+  font-weight: bold !important;
+  }
