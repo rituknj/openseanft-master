@@ -2,3 +2,21 @@
   width: 20%;
   border-radius: 25px;
 }
+.uncontrolled {
+  font-size: 32px;
+  color: #5f6870 !important;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.uncontrolled:hover {
+  font-size: 32px;
+  color: #0f0f10 !important;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.nav-link {
+  color: none !important;
+}
+.down-1 {
+  text-align: center;
+}

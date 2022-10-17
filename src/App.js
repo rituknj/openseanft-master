@@ -7,7 +7,8 @@ import Notable from "./Components/Notable";
 import Avalanch from "./Components/Avalanch";
 import Browse from "./Components/Browse";
 import Footer from "./Components/Footer";
-import Toyslider from "./Components/Toyslider";
+// import Toyslider from "./Components/Toyslider";
+import Table from "./Components/Table";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
       <Navbar />
       <Main />
 
-      <Trending />
+      {/* <Trending /> */}
+      <Table />
       <Notable />
       <Avalanch />
-{/*       <Toyslider /> */}
+      {/*       <Toyslider /> */}
       <Browse />
-  <Footer /> 
+      <Footer />
     </div>
   );
 }

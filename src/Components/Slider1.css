@@ -22,7 +22,6 @@ body {
 }
 
 .swiper-slide {
-
   font-size: 18px;
   background: #fff;
 
@@ -74,7 +73,6 @@ body {
 }
 
 .swiper-slide {
-
   font-size: 18px;
   background: #fff;
 
@@ -98,35 +96,36 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.swiper-slide{
-  /* background-color: black; */
-  /* color: white; */
-}
-.doodle{
+/* .swiper-slide{
+  background-color: black;
+  color: white;
+} */
+.doodle {
   padding: 5px 15px;
 }
-.doodles{
-  padding:1rem;
+.doodles {
+  padding: 1rem;
 }
-.item12{
+.item12 {
   color: #ababab;
   /* background-color: black; */
   border: 0.1rem solid #ababab;
   font-size: 12px;
 }
 
-
-.swiper-button-next:after{
-background-color: white;
-padding: 1rem;
-font-size: 15px !important;
-border-radius: 30%;
-font-weight: bold !important;
+.swiper-button-next:after {
+  background-color: rgb(203, 197, 197);
+  color: #000;
+  padding: 20px;
+  font-size: 20px !important;
+  border-radius: 100%;
+  font-weight: bolder !important;
 }
-.swiper-button-prev:after{
-  background-color: white;
-  padding: 1rem;
-  font-size: 15px !important;
-  border-radius: 30%;
-  font-weight: bold !important;
-  }
+.swiper-button-prev:after {
+  background-color: rgb(203, 197, 197);
+  color: #000;
+  padding: 20px;
+  font-size: 20px !important;
+  border-radius: 100%;
+  font-weight: bolder !important;
+}

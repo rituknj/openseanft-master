@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container  py-5">
+      <div className="container-fluid  py-5">
         <h1>Avalanche spotlight</h1>
         <Swiper
           slidesPerView={1}
@@ -53,7 +53,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -78,7 +78,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -103,7 +103,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -128,7 +128,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -153,7 +153,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -178,7 +178,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -203,7 +203,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -228,7 +228,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
@@ -252,7 +252,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-      <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img

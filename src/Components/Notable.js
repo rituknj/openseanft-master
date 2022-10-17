@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container  py-5">
+      <div className="container-fluid  py-5">
         <h1> New and notable</h1>
         <Swiper
           slidesPerView={1}
@@ -78,18 +78,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -103,18 +103,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -128,18 +128,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -153,18 +153,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -178,18 +178,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -203,18 +203,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-              <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -228,18 +228,18 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
-            <Card.Title className="card-body12">
-              <span>
-                {" "}
-                <img
-                  src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
-                  alt=""
-                  style={{ display: "inline-flex" }}
-                  className="card-image1"
-                />{" "}
-              </span>
-              <span className="text32">Mohammad Ali</span>
-            </Card.Title>
+                <Card.Title className="card-body12">
+                  <span>
+                    {" "}
+                    <img
+                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      alt=""
+                      style={{ display: "inline-flex" }}
+                      className="card-image1"
+                    />{" "}
+                  </span>
+                  <span className="text32">Mohammad Ali</span>
+                </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -252,7 +252,7 @@ export default function App() {
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
-            <Card.Title className="card-body12">
+                <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img

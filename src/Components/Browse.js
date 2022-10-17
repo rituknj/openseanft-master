@@ -14,7 +14,7 @@ import "./Browse.css";
 export default function Browse() {
   return (
     <section>
-      <div className="container  py-5">
+      <div className="container-fluid  py-5">
         <h1>Browse by category</h1>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">

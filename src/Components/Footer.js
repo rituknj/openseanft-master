@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       <div style={{ backgroundColor: "#1868b7", color: "white" }}>
-        <div className="container  py-5">
+        <div className="container-fluid  py-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <h3>Stay in the loop</h3>
@@ -73,7 +73,7 @@ function Footer() {
           <hr />
           <div>
             <div className="row">
-              <div className="col-lg-4 col-md-12 col-sm-12 col-12 footer-opensea" >
+              <div className="col-lg-4 col-md-12 col-sm-12 col-12 footer-opensea">
                 <img
                   src="https://opensea.io/static/images/logos/opensea-white.svg"
                   alt=""
@@ -82,7 +82,7 @@ function Footer() {
                 <br />
                 <br />
                 <h5>OpenSea</h5>
-                <br/>
+                <br />
                 <p>
                   The world’s first and largest digital marketplace for crypto
                   collectibles and non-fungible tokens (NFTs). Buy, sell, and
