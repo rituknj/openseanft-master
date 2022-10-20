@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       <div style={{ backgroundColor: "#1868b7", color: "white" }}>
-        <div className="container-fluid  py-5">
+        <div className="container-fluid  py-5 px-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
               <h3>Stay in the loop</h3>

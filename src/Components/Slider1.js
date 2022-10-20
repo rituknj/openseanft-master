@@ -22,7 +22,7 @@ import { Autoplay, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container-fluid py-5">
+      <div className="container-fluid py-5 ">
         <Swiper
           slidesPerView={1}
           spaceBetween={10}

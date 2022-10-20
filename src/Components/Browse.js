@@ -14,11 +14,11 @@ import "./Browse.css";
 export default function Browse() {
   return (
     <section>
-      <div className="container-fluid  py-5">
+      <div className="container-fluid py-5 px-5">
         <h1>Browse by category</h1>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse1} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>Art</Card.Title>
@@ -31,7 +31,7 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse2} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>Music</Card.Title>
@@ -44,7 +44,7 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse3} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>
@@ -61,7 +61,7 @@ export default function Browse() {
         </div>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse4} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>
@@ -76,7 +76,7 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse5} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>
@@ -91,7 +91,7 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse6} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>Utility</Card.Title>
@@ -106,7 +106,7 @@ export default function Browse() {
         </div>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse7} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>
@@ -121,7 +121,7 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse8} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>Sports</Card.Title>
@@ -134,7 +134,7 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card style={{ width: "100%" }}>
+            <Card className="cards">
               <Card.Img variant="top" src={Browse9} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>

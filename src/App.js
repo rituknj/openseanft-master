@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Main />
 
-      {/* <Trending /> */}
-      <Table />
+      <Trending />
+      {/* <Table /> */}
       <Notable />
       <Avalanch />
       {/*       <Toyslider /> */}

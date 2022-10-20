@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container-fluid  py-5">
+      <div className="container-fluid  py-5 px-5">
         <h1> New and notable</h1>
         <Swiper
           slidesPerView={1}

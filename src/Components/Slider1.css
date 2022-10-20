@@ -56,7 +56,20 @@ body {
   width: 100%;
   position: relative;
 } */
+.slider-1 {
+  border-radius: 20px;
 
+  transition: transform 1s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.slider-1:hover {
+  border-radius: 10px;
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
 .slider1 {
   border-radius: 20px;
 
