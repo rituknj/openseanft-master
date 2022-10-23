@@ -1,7 +1,7 @@
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Table from "react-bootstrap/Table";
-import Icon1 from "./Images/duck.png";
+// import Icon1 from "./Images/duck.png";
 import Icons from "./Images/duck.png";
 import "./Trending.css";
 
@@ -36,7 +36,10 @@ function UncontrolledExample() {
 
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align ">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -57,7 +60,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -78,7 +84,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -99,7 +108,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -120,7 +132,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -200,7 +215,10 @@ function UncontrolledExample() {
                       </div>
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -221,7 +239,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -242,7 +263,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -263,7 +287,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -284,7 +311,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -367,7 +397,10 @@ function UncontrolledExample() {
                     <div className="row ">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -388,7 +421,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -409,7 +445,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -430,7 +469,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -451,7 +493,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -531,7 +576,10 @@ function UncontrolledExample() {
                       </div>
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -552,7 +600,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -573,7 +624,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -594,7 +648,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -615,7 +672,10 @@ function UncontrolledExample() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="row text-align">
-                          <div className="col-lg-1 col-md-1 col-sm-1 col-1">
+                          <div
+                            className="col-lg-1 col-md-1 col-sm-1 col-1"
+                            style={{ textAlign: "right" }}
+                          >
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -679,6 +739,51 @@ function UncontrolledExample() {
               </div>
             </Tab>
           </Tabs>
+          <div className="row d-flex">
+            <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div className="dropdown" style={{ textAlign: "right" }}>
+                <button
+                  className="btn-2 dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  24 h
+                </button>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      24 h
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      7 d
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      30 d
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      All
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-6 col-md-6 col-sm-6 col-12"
+              style={{ textAlign: "right" }}
+            >
+              <button type="button" className="btn1">
+                View all
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
