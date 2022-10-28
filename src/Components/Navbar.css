@@ -24,7 +24,7 @@
   font-family: "Poppins" sans-serif !important;
   height: 72px;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 @media screen and (max-width: 992px) {

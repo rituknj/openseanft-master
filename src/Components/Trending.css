@@ -39,12 +39,7 @@
 .text-align {
   align-items: center;
 }
-.nav-link {
-  color: #000 !important;
-  /* font-size: 40px !important; */
-  font-weight: 48px !important;
-  font-family: "Poppins" sans-serif !important;
-}
+
 .nav-link:active {
   color: #707a83 !important;
 }
